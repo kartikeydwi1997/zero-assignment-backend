@@ -17,7 +17,10 @@ class MongoConnection:
 
         return cls.__client
 
-
+    """
+   Create a connection to the database.
+   :collection_name: The name of the collection to connect to.
+    """
 def get_collection(collection_name):
     username = "kartikey"
     password = "12345"
