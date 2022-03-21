@@ -20,6 +20,7 @@ class MongoConnection:
     """
    Create a connection to the database.
    :collection_name: The name of the collection to connect to.
+   The credentials represent the cluster credentials.
     """
 def get_collection(collection_name):
     username = "kartikey"

@@ -4,4 +4,6 @@ pandas==1.3.4
 pymongo==4.0.2
 tqdm==4.62.3
 gunicorn==20.1.0
+requests==2.27.1
+unittest
 pymongo[srv]
