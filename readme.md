@@ -18,6 +18,11 @@ The main file app.py listens to one single POST method route called "/create_phr
 # Tests 
 Few test cases are provided in the test.py file such as to check the status code, check if population, county, pig_latin name and zipcode is returned in the response and equal to the expected values.
 
+# Requirements
+Their are few dependencies that are required to run the project. Please check the requirements.txt file for the list of dependencies.
+
+# Dependencies
+
 # File Descrption
 1. app.py- main file of the project. It contains the route "/create_phrase" which is used to return the response.
 2. mongo_connection.py- file to connect to the mongoDB instance.

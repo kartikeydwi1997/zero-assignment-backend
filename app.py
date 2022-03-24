@@ -3,6 +3,7 @@ from flask_cors import CORS, cross_origin
 
 from utils import pig_latin_translate
 from mongo_connection import get_collection
+from neighbor_utils import get_neighbors
 
 
 # Instantiate flask app
@@ -44,7 +45,8 @@ def index():
             pig_latin_name_key: pig_latin_name,
             zip_key: val[zip_key],
             county_key: document[county_key],
-            population_key: document[population_key]
+            population_key: document[population_key],
+            "neighbors": get_neighbors(int(val[zip_key])),
         }
         return jsonify(res_dict)
 if __name__ == "__main__":

@@ -1,0 +1,5 @@
+County Information (county_data.csv)
+    - https://www.unitedstateszipcodes.org/zip-code-database/
+Population Information (population_data.csv) - Data from US Census 2010
+    - https://data.world/lukewhyte/us-population-by-zip-code-2010-2016
+
